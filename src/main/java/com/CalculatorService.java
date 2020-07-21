@@ -15,4 +15,15 @@ public class CalculatorService {
 	public int multiply() {
 		return 10*10;
 	}
+	
+	@GetMapping("/subtraction")
+	public int subtraction() {
+		return 10-10;
+	}
+	
+	@GetMapping("/division")
+	public int division() {
+		return 10/10;
+	}
 }
+
