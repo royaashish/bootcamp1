@@ -34,4 +34,33 @@ public class TestCalculatorService{
 	public void testDivision() {
 		Assertions.assertEquals(1, cs.division());
 	}
+	@Test
+	public void testConcat() {
+		Assertions.assertEquals("HelloWorld", cs.concat());
+	}
+	
+	@Test
+	public void testBool() {
+		Assertions.assertEquals(true, cs.bool());
+	}
+	
+	@Test
+	public void testParentage() {
+		Assertions.assertEquals(60, cs.parentage());
+	}
+	
+	@Test
+	public void testSquareRoot() {
+		Assertions.assertEquals(10, cs.squareRoot());
+	}
+	
+	@Test
+	public void testSquare() {
+		Assertions.assertEquals(100, cs.square());
+	}
+	
+	@Test
+	public void testRound() {
+		Assertions.assertEquals(80, cs.round());
+	}
 }
